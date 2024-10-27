@@ -1,0 +1,256 @@
+.flight-results {
+  background-color: rgba(252, 252, 252, 0.1);
+  background-image: url(../imgs/Flight7.jpeg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.flight-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.flight-accordion {
+  background-color: rgba(246, 255, 255, 1) !important;
+  margin: 1rem auto !important;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px !important;
+  padding: 2rem 1rem;
+  max-width: 70%;
+}
+
+.flight-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto !important;
+  text-align: center !important;
+}
+
+.flight-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  text-align: left;
+  padding-top: 15px;
+  max-width: 100%;
+  margin: 0 auto !important;
+}
+.flight-basic-details h4 {
+  font-weight: bold;
+  color: #a1a1a1;
+}
+
+.css-ofrcno-MuiGrid-root {
+  width: 100% !important;
+}
+
+.timeline, .flights-time, .flight-duration {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: flex-start!important;
+  margin: 0 !important;
+  padding: 10px !important;
+  min-height: 100% !important;
+}
+
+.timeline {
+  justify-content: flex-end !important;
+}
+
+.css-uxg07t-MuiTimeline-root {
+  margin: 0;
+  padding: 0;
+  height: 100% !important;
+}
+
+.css-sa6qj6-MuiGrid-root {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: flex-start !important;
+}
+
+.flight-other-info {
+  width: 100% !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+.layover {
+  margin: 0 0 3rem 10.5rem!important;
+  border-top: 0.5px solid #e0e0e0;
+  border-bottom: 0.5px solid #e0e0e0;
+  text-align: left !important;
+  padding: 0.75rem 1rem 0.75rem !important;
+  color: rgb(148, 44, 44);
+}
+
+.flight-icons {
+  min-width: 100% !important;
+}
+
+.select-flight-btn {
+  margin: 10px auto !important;
+  color: white;
+  min-width: 50% !important;
+}
+
+.select-flight-btn:hover {
+  background-color: #57b65c;
+  color: black;
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.filter-buttons Button {
+  background-color: transparent;
+  color: #4285f4;
+  transition: background-color 1s ease !important;
+  padding: 15px 20px;
+  font-weight: bold;
+  margin: 5px;
+}
+
+.filter-buttons Button:hover {
+  background-color: #4285f4;
+  color: white;
+}
+
+.filter-buttons .active-filter {
+  background-color: #4285f4 !important;
+  color: white !important;
+}
+
+/* Responsive styles */
+@media (max-width: 764px) {
+  .flight-header h2 {
+    font-size: 2.5rem;
+  }
+  .flight-header h4 {
+    font-size: 1.25rem;
+  }
+  .flight-accordion {
+    padding: 10px 0 !important;
+    max-width: 100%;
+    font-size: 0.5rem !important;
+  }
+
+  .timeline {
+    display: none !important;
+  }
+  .flight-summary {
+    flex-direction: row !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    padding: 10px 5px !important;
+  }
+  .carrier-logo {
+    padding-left: 5px !important;
+    width: 20px;
+  }
+  .carrier-logo img {
+    width: 100%!important;
+  }
+  .flight-travel-time {
+    min-width: 30% !important;
+    padding: 10px 0 0 !important;
+  }
+  .flight-travel-time h6 {
+    font-size: 0.75rem !important;
+    min-width: 100% !important;
+  }
+  .flight-dur-type {
+    min-width: 15% !important;
+    padding: 10px 0 0 !important;
+  }
+  .flight-dur, .flight-type {
+    font-size: 0.6rem !important;
+  }
+  .flight-org-des {
+    padding: 10px 5px 0  !important;
+    min-width: 20%;
+  }
+  .flight-org-des p {
+    font-size: 0.75rem !important;
+  }
+  .flight-price {
+    padding-left: 0 !important;
+    max-width: 15% !important;
+  }
+  .flight-price h6 {
+    font-size: 0.75rem !important;
+  }
+
+  .flight-basic-details {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    padding-top: 10px !important;
+    font-size: 0.6rem !important;
+    width: 100% !important;
+    margin: 5px auto !important;
+  }
+  .flight-basic-details h4 {
+    font-size: 1.25rem !important;
+    border: 1px solid #ebebeb !important;
+    padding: 10px 2rem;
+    border-radius: 8px;
+  }
+
+  .timeline,
+  .flights-time,
+  .flight-duration,
+  .flight-other-info {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: flex-start !important;
+    min-width: 100% !important;
+    height: 100% !important;
+    font-size: 0.6rem !important;
+    padding: 10px auto !important;
+  }
+  .layover {
+    margin: 1.5rem 0 0.5rem !important;
+    text-align: center !important;
+  }
+
+  .flight-icons {
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.8rem !important;
+  }
+
+  .flight-icons Typography {
+    flex: 1;
+  }
+
+  .filter-buttons {
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+    width: 100% !important;
+    margin: 2rem auto !important;
+  }
+
+  .filter-buttons Button, .airline {
+    width: 80% !important;
+    margin: 5px 0;
+    font-size: 0.8rem !important;
+  }
+  .select-flight-btn {
+    min-width: 100% !important;
+  }
+  
+}

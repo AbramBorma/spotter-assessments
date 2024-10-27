@@ -1,0 +1,24 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: auto;
+    background-color: rgb(246, 246, 247) !important;
+}
+.image {
+    background-image: url('https://www.gstatic.com/travel-frontend/animation/hero/flights_nc_4.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 60%;
+    height: 500px;
+}
+h1{
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+h2 {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
